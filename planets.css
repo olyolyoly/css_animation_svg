@@ -1,0 +1,27 @@
+@keyframes planets{
+    from {transform-origin: 400px 250px}
+    to {transform-origin: 400px 250px; transform: rotate(360deg)
+    }
+}
+
+.rotate{
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-name: planets;
+    animation-iteration-count: infinite;
+}
+
+.rotate.slow{
+    animation-duration: 20s;
+}
+
+.rotate.fast{
+    animation-duration: 5s;
+}
+.rotate.extraslow{
+    animation-duration: 30s;
+}
+
+.rotate.extrafast{
+    animation-duration: 3s;
+}
